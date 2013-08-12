@@ -1,0 +1,395 @@
+/* 
+    Document   : template
+    Created on : 23-feb-2013, 16:12:49
+    Author     : andresplaza
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+#topOut{
+    width: 100%;
+}
+
+
+
+#top {
+    background-image: url("./img/logo.png");
+    position: relative;
+    background-color: #036fab;
+    color: white;
+    padding: 5px;
+    margin: 0px 0px 5px 0px;
+    height: 174px;
+    border:solid 1px #0B3B0B;
+    -moz-border-radius-topleft: 6px;
+    -moz-border-radius-topright:5px;
+    -moz-border-radius-bottomleft:5px;
+    -moz-border-radius-bottomright:5px;
+    -webkit-border-top-left-radius:6px;
+    -webkit-border-top-right-radius:5px;
+    -webkit-border-bottom-left-radius:5px;
+    -webkit-border-bottom-right-radius:5px;
+    border-top-left-radius:6px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
+#bottom {
+    background-color: #2E2E2E;
+    border-top: 1px solid gray;
+    color: white;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    font-size: 14px;
+    clear: both;
+}
+
+#left {
+    float: left;
+    padding: 5px;
+    width: 180px;
+    border:solid 1px #0B3B0B;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright:10px;
+    -moz-border-radius-bottomleft:5px;
+    -moz-border-radius-bottomright:5px;
+    -webkit-border-top-left-radius:10px;
+    -webkit-border-top-right-radius:10px;
+    -webkit-border-bottom-left-radius:5px;
+    -webkit-border-bottom-right-radius:5px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
+#right {
+    float: right;
+    padding: 5px;
+    width: 170px;
+    border:solid 1px #0B3B0B;
+    -moz-border-radius-topleft: 6px;
+    -moz-border-radius-topright:5px;
+    -moz-border-radius-bottomleft:5px;
+    -moz-border-radius-bottomright:5px;
+    -webkit-border-top-left-radius:6px;
+    -webkit-border-top-right-radius:5px;
+    -webkit-border-bottom-left-radius:5px;
+    -webkit-border-bottom-right-radius:5px;
+    border-top-left-radius:6px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
+.center_content {
+    position: relative;
+    background-color: #dddddd;
+    padding: 5px;
+}
+
+.left_content {
+    background-color: #dddddd;
+    padding: 5px;
+    margin-left: 170px;
+}
+
+.right_content {
+    padding: 5px;
+    margin: 0 184px 0 194px;
+    border:solid 1px #0B3B0B;
+    -moz-border-radius-topleft: 6px;
+    -moz-border-radius-topright:5px;
+    -moz-border-radius-bottomleft:5px;
+    -moz-border-radius-bottomright:5px;
+    -webkit-border-top-left-radius:6px;
+    -webkit-border-top-right-radius:5px;
+    -webkit-border-bottom-left-radius:5px;
+    -webkit-border-bottom-right-radius:5px;
+    border-top-left-radius:6px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
+#top a:link, #top a:visited {
+    color: white;
+    font-weight : bold;
+    text-decoration: none;
+}
+
+#top a:link:hover, #top a:visited:hover  {
+    color: black;
+    font-weight : bold;
+    text-decoration : underline;
+}
+
+body
+{
+    font-family: arial;
+    min-width:1000px; /*Agregar un min-width tan ancho como el del contenedor*/
+    z-index: -1;
+    left:0px;
+    top:0px;
+    background-color: white;
+}
+
+
+#top_pago {
+    padding: 5px;
+    width: 100%px;
+    border:solid 1px #0B3B0B;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright:10px;
+    -moz-border-radius-bottomleft:5px;
+    -moz-border-radius-bottomright:5px;
+    -webkit-border-top-left-radius:10px;
+    -webkit-border-top-right-radius:10px;
+    -webkit-border-bottom-left-radius:5px;
+    -webkit-border-bottom-right-radius:5px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
+#container{
+    background-color: white;
+    position: relative;
+    padding: 4px;
+    /*border: 2px solid #0B3B0B;
+    -moz-border-radius-topleft: 6px;
+    -moz-border-radius-topright:6px;
+    -webkit-border-top-left-radius:6px;
+    -webkit-border-top-right-radius:6px;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    */
+    /*box-shadow: #CCC 0 0 9px;*/
+    text-align:left; /*Resetear el alineamiento a la izquierda, recuerden que lo centramos para IE5*/
+    width: 1000px ; /*Esto deberia ser lo mismo que el min-width del body*/
+    /*Colocando los margenes auto centrará todo el contenedor en el body*/
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+
+#titulos{
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #0B3B0B;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 0;
+    background: url("./img/box-bg.png") no-repeat scroll left top #EAEAEA;
+    border: 1px solid #D6D6D6;
+    border-radius: 10px 10px 0 0;
+    color: #0B3B0B;
+    font-family: arial;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 14px;
+    padding: 10px 15px 10px 35px;
+}
+
+#producto{
+    border: 1px solid #D3D3D3;
+    border-radius: 10px 10px 10px 10px;
+    display: inline-block;
+    margin: 10px 1px 15px;
+    padding: 10px 0;
+    text-align: center;
+    vertical-align: top;
+    width: 148px;
+}
+
+#producto .imagenProducto{
+
+}
+#producto .nombreProducto{
+    height: 30px;
+
+}
+#producto .precioProducto{
+    color: #0B3B0B;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+#producto .carro{
+
+}
+
+#producto .panelDetalle{
+    text-align: left;
+}
+
+#producto .carro a span{
+    background: url("./img/button-right.png") no-repeat scroll right top transparent;
+    color: #0B3B0B;;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 12px;
+    padding: 6px 12px 8px 5px
+}
+
+#letraBase{
+    color: #0B3B0B;
+    font-family: arial;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+a.button{
+    background: url("./img/button-left.png") no-repeat scroll left top transparent;
+    cursor: pointer;
+    display: inline-block;
+    padding-left: 8px;
+    text-decoration: none;
+
+}
+
+#producto a.button:hover {
+}
+#producto a.button:hover span {
+    color: #3E3E3E;
+}
+
+#producto .nombreProducto a {
+    color: #087FE0;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 4px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+#producto .nombreProducto a:hover {
+    color: #087FE0;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 4px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+#right a img{
+    width: 170px;
+}
+
+#derechos{
+    width: 80%;
+}
+
+
+#linkPiePagina{
+    position: absolute;
+    color:white;
+    margin-top: 5px;
+    margin-left: 225px;
+}
+
+
+#bottom center div#linkPiePagina table tbody tr{
+    font-size: 13px;
+    color:white;
+}
+
+
+
+/* CSS Para tab del detalle*/
+.contenedor_tab{
+    float:left;
+    width:609px;
+    padding:0px;
+    display:block;
+    border:1px solid #333;
+    -moz-border-radius:0 0 7px 7px;
+    -webkit-border-radius:0 0 7pc 7px;
+    border-radius: 0 0 7px 7px;
+}
+ul.tabs{
+    float:left;
+    margin:0;
+    padding:0;
+    list-style:none;
+    height:32px;
+    width:600px;
+}
+ul.tabs li{float:left;margin:0;padding:0;height:31px;line-height:31px;border:1px solid #333;margin-bottom:-1px;overflow:hidden;position:relative;border:1px solid #333;-moz-border-radius:7px 7px 0 0;-webkit-border-radius:7px 7px 0 0;border-radius: 7px 7px 0 0;}
+ul.tabs li a{text-decoration:none;color:gray;display:block;font-size:13px;padding:0 20px;border:1px solid #fff;outline:none;-moz-border-radius:7px 7px 0 0;-webkit-border-radius:7px 7px 0 0;border-radius: 7px 7px 0 0;}
+ul.tabs li a:hover{}
+ul.tabs li.activa,ul.tabs li.activa a,ul.tabs li.activa a:hover {color:#333;font-weight:bold;border-bottom:1px solid white;}
+.contenido_tab{padding:10px;font-size:1.2em;width:580px;}
+.contenido_tab img{margin:0 20px 20px 0;border:1px solid #ddd;padding:5px}
+
+
+#advertencia{
+    margin: 0 auto;
+    background-color: #33CC33;
+    margin-top: 5px;
+    padding: 3px;
+    border: 1px solid green;
+    font-size: 13px;
+    font-family: arial;
+}
+
+
+#one-column-emphasis {
+    border-collapse: collapse;
+    font-family: "Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+    font-size: 12px;
+    margin: 20px;
+    text-align: left;
+    width: 92%;
+}
+#one-column-emphasis th {
+    color: #003399;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 12px 15px;
+}
+#one-column-emphasis td {
+    border-top: 1px solid #E8EDFF;
+    color: #666699;
+    padding: 10px 15px;
+}
+
+#one-column-emphasis tr:hover{
+    background-color: #CEF6EC;
+}
+
+#textopiepagina{
+    color:white;
+    font-size: 13px;
+}
+
+#cabpiepagina{
+    color: #F2F2F2;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#datos{
+    left: 70%;
+    position: absolute;
+    top: 144px;
+    z-index: 99999;
+}
+
+

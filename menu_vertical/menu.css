@@ -1,0 +1,42 @@
+
+root { 
+    display: block;
+}
+
+/* Menú vertical desplegable----------------------------------------------- */
+.menu_list { width: 180px; /* ancho del menu*/}
+.menu_head {padding: 5px 10px;
+            cursor: pointer;
+            position: relative;
+            margin:1px;
+            margin-left:0;
+            margin-right:0;
+            font-weight:bold;
+            height: 20px;
+            background: #fff url(three_0.gif) repeat-x;
+            /*background-image: url(https://lh5.googleusercontent.com/-mQHPLQrjxcI/TlQJSHgEsZI/AAAAAAAABno/HbkoM9nbaWQ/flecha-abajo.png);*/
+           
+            border-bottom: 1px solid #0B3B0B; 
+            color: #CCC;
+            font-size: 13px;
+}
+
+.menu_list p.menu_head:hover{
+    color:white;
+}
+
+.menu_body {display:none;}
+.menu_body a{display:block;
+             color:#0B6121; /* Color de los enlaces */
+             background-color:#D8F6CE; /* color de los enlaces */
+             padding-left:10px;
+             font-weight:bold;
+             text-decoration:none;
+             font-size: 12px;
+             padding-top: 3px;
+             padding-bottom: 3px;
+}
+.menu_body a:hover{
+    color: #000000; /*color al pasar el cursos */
+    text-decoration:underline;
+}
